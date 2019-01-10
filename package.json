@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "angular-http-server --path build --cors"
+    "start": "angular-http-server --config configs/angular-http-server.config.js"
   },
   "author": "",
   "license": "ISC",
