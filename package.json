@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server build --cors"
+    "start": "angular-http-server --path build --cors"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular-http-server": "^1.8.1",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "http": "0.0.0",
